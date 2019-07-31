@@ -156,6 +156,7 @@ h2 {
   justify-content: center;
   font-size: 3.2rem;
   padding-bottom: 10px;
+  padding-top: 10px;
 }
 h4 {
   font-size: 2.5rem;
@@ -194,10 +195,10 @@ img {
 .text-center {
   display: flex;
   justify-content: center;
+  padding: 15px;
   text-size: 1.4rem;
 }
 .contact {
-  display: flex;
   justify-content: center;
   font-size: 1.6rem;
 }
@@ -205,4 +206,8 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.contact-h2 {
+  display: flex;
+  justify-content: center;
 }
