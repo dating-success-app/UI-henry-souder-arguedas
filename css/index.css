@@ -142,6 +142,9 @@ body {
   font-family: 'Hind Guntur', sans-serif;
   padding: 10px;
 }
+.logo-image {
+  padding-top: 10px;
+}
 h1,
 h2,
 h3,
@@ -184,6 +187,14 @@ img {
   text-decoration: none;
   color: #00171F;
 }
+@media (max-width: 400px) {
+  .navigation a {
+    margin: 5px;
+    padding: px;
+    display: flex;
+    justify-content: flex-start;
+  }
+}
 .text-center {
   display: flex;
   justify-content: center;
@@ -213,6 +224,8 @@ img {
     padding: 10px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 .contact-h2 {
