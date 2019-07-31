@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     padding: 15px;
-    text-size: 1.4rem;
+    font-size: 1.4rem;
 
   }
 
@@ -12,12 +12,24 @@
 .contact {
     justify-content:center;
     font-size: 1.6rem;
+    @media (max-width: 400px) {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        padding: 10px;  
+     }
 }
 
 .address-info {
     display: flex;
     justify-content: center;
     align-items: center;
+    @media (max-width: 400px) {
+        margin: 10px;  
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+     }
 }
 
 .contact-h2 {
