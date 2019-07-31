@@ -136,6 +136,11 @@ html,
 body {
   font-family: 'Open Sans', sans-serif;
 }
+.logo {
+  font-size: 3rem;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Hind Guntur', sans-serif;
+}
 h1,
 h2,
 h3,
@@ -179,9 +184,25 @@ img {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  font-size: 2rem;
 }
 .navigation a {
   padding: 10px;
   text-decoration: none;
   color: #00171F;
+}
+.text-center {
+  display: flex;
+  justify-content: center;
+  text-size: 1.4rem;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  font-size: 1.6rem;
+}
+.address-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
